@@ -1,0 +1,65 @@
+*{
+    padding:0;
+    margin:0;
+    border: border-box;
+}
+.name{
+    height: 750px;
+    width:100%;
+    background-color: black;
+    color:white;
+}
+.name h1{
+    font-size: 5rem;
+    text-align: center;
+    padding-top: 300px;
+}
+.name p{
+    font-size:3rem;
+    text-align: center;
+}
+.image{
+    height:750px;
+    width: 100%;
+    background-image:url(person_image.jpg);
+    background-size: cover;
+}
+.image p{
+    width:600px;
+    font-size:3.5rem;
+    padding-top: 300px;
+    margin-left:150px;
+}
+.biography{
+    background-color: black;
+    color: white;
+}
+.biography h1{
+    margin-left:300px;
+    font-size:5rem;
+    padding-top: 50px;
+}
+.biography p{
+    font-size: 2rem;
+    margin-top: 40px;
+    margin-left: 300px;
+    width:700px;
+}
+.line{
+    background-color: black;
+}
+.line1{
+    width:900px;
+    border-bottom:1px solid white;
+    padding-top: 70px;
+    margin-left:250px;
+
+}
+footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+    font-size:1.2rem;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
