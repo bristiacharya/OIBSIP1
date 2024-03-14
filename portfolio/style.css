@@ -1,0 +1,114 @@
+/*Universall*/
+*{
+    padding:0;
+    margin:0;
+    border: border-box;
+}
+
+/*body part*/
+body{
+    background-color:white;
+}
+/*about me section*/
+.first_page{
+    height:700px;
+    width:100%;
+    display:flex;
+    justify-content:space-evenly;
+}
+.paraghraph{
+    width:60%;
+}
+/*name part*/
+.name{
+    width:100%;
+    margin-top:10px;
+    margin-left: 250px;
+    font-size:2rem;
+}
+.female{
+    width:100%;
+    margin-left:280px;
+    font-size:2rem;
+}
+/*who iam*/
+.i_am{
+    width:100%;
+    font-size:1.2rem;
+    margin-left:290px;
+    margin-top:10px;
+}
+.about_me{
+    font-size:2.5rem;
+    margin-top: 200px;
+    margin-left:100px;
+}
+.about_myself{
+    height:100px;
+    width: 600px;
+    position:absolute;
+    left:100px;
+    top:250px;
+    font-size:1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*my_image part*/
+.image{
+    height:700px;
+    width:40%;
+    background-color: rgba(231, 234, 237, 0.89);
+    border:2px solid transparent;
+}
+.image:hover{
+    border:2px solid black;
+}
+.my_image{
+    height: 200px;
+    width:200px;
+    background-image:url(formal\ profile\ photo.jpg);
+    background-size: cover;
+    margin-left:250px;
+    margin-top:150px;
+    border:2px solid transparent;
+}
+.my_image:hover{
+    border:2px solid black;
+}
+
+.email_me{
+    height:40px;
+    width: 180px;
+    background-color: black;
+    color: white;
+    margin-left:260px;
+    margin-top: 15px;
+}
+/*Education*/
+.about_education{
+    width:100%;
+    
+}
+.education_heading{
+    font-size:3rem;
+    width:300px;
+}
+.education{
+margin-left:310px;
+}
+.skill{
+    width:100%;
+    margin-top: 100px;
+}
+.skill_heading{
+    font-size:5rem;
+}
+.skill_name{
+    font-size:1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left:100px;
+}
+.contact_me{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
