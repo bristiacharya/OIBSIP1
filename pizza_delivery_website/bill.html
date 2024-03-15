@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Restaurant Bill</title>
+</head>
+<body>
+<h2>Your Bill</h2>
+
+<div id="bill">
+    <h3>Bill</h3>
+    <ul id="billItems">
+       
+    </ul>
+    <p>Total: <span id="totalCost">0</span></p>
+</div>
+
+<script>
+    const billItems = [
+        { itemName: "Pizza", quantity: 2, price: 12.99 },
+        
+    ];
+    let totalCost = 0;
+
+    function displayBill() {
+        const billList = document.getElementById("billItems");
+        billList.innerHTML = "";
+        billItems.forEach(item => {
+            const li = document.createElement("li");
+            li.textContent = `${item.quantity} x ${item.itemName} - $${(item.quantity * item.price).toFixed(2)}`;
+            billList.appendChild(li);
+            totalCost += item.quantity * item.price;
+        });
+        document.getElementById("totalCost").textContent = totalCost.toFixed(2);
+    }
+
+    
+    displayBill();
+</script>
+</body>
+</html>

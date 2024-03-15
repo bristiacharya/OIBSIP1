@@ -1,0 +1,164 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.navbar{
+    height:60px;
+    width:100%;
+    background-color: black;
+}
+.logo{
+    width: 80%;
+    display: flex;
+}
+.logo_image{
+    background-image:url("image/pizza\ Logo.png");
+    background-size: cover;
+    height: 60px;
+    width:60px;
+    margin-top: 10px;
+}
+.logo h1{
+    color:red;
+    margin-top: 20px;
+}
+.hero_section{
+    height:800px;
+    width:100%;
+    background-image:url("image/pizza_hero.avif");
+    background-size: cover;
+}
+.hero_section h1{
+    color: red;
+    padding-top:200px;
+    margin-left:50px;
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hero_section p{
+    width: 600px;
+    font-style: normal;
+    color:white;
+    padding-top:10px;
+    margin-left:50px;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.customize_pizza{
+    width:250px;
+    height: 60px;
+    background-color: red;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.customize_pizza p{
+    margin-left: 15px;
+    padding-top: 15px;
+    color:white;
+    font-size:1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.box{
+    height:400px;
+    width: 23%;
+    background-color: black;
+    margin-top: 1rem;
+}
+.box-image{
+    height: 250px;
+    padding:20px,0px,15px;
+    margin-top:1.5rem;
+}
+.box-contain{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+.box-contain p{
+    color: rgb(255, 106, 0);
+    margin-top: 1rem;
+    text-decoration: none;
+}
+.shop-section2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+ 
+}
+.shop-section h2{
+    color: red;
+}
+.shop-section2 h2{
+    color:red;
+}
+.background{
+    background-image:url("image/pizza_background.jpg");
+    background-size: cover;
+}
+.space{
+    height:15px;
+    width: 100%;
+}
+.sixth_page{
+    height:400px;
+    width:100%;
+    background-color: black;
+    color: aliceblue;
+}
+.question_section{
+    height: 50px;
+    width:400px;
+    padding-top:50px;
+    margin-left:135px;
+}
+.all_question_box{
+    height: 300px;
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.first_question_section{
+    height: 300px;
+    width:200px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.second_question_section{
+    height: 300px;
+    width:200px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.third_question_section{
+    height: 300px;
+    width:200px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.fourth_question_section{
+    height:220px;
+    width:200px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.footer{
+    height:30px;
+    width:100%;
+    background-color:black;
+    color: white;
+    text-align: center;
+}

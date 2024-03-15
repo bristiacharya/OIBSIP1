@@ -1,0 +1,81 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.navbar{
+    height:80px;
+    width:100%;
+    background-color: black;
+}
+.logo{
+    width: 80%;
+    display: flex;
+}
+.logo_image{
+    background-image:url("image/pizza\ Logo.png");
+    background-size: cover;
+    height: 60px;
+    width:60px;
+    margin-top: 10px;
+}
+.logo h1{
+    color:red;
+    margin-top: 20px;
+}
+.cheese_pizza h1{
+    font-size: 6rem;
+    text-align: center;
+    color:rgb(255, 106, 0);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.box{
+    height:400px;
+    width: 23%;
+    background-color: black;
+    margin-top: 1rem;
+}
+.box-image{
+    height: 250px;
+    padding:20px,0px,15px;
+    margin-top:1.5rem;
+}
+.box-contain{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+.box-contain p{
+    color: rgb(255, 106, 0);
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.shop-section2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+ 
+}
+.shop-section h2{
+    color: red;
+    font-size: 1.2rem;
+}
+.shop-section2 h2{
+    color:red;
+    font-size: 1.2rem;
+}
+.background{
+   background-color:white;
+}
+.space{
+    height:15px;
+    width: 100%;
+}
